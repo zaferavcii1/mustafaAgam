@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MustafaAgam.exe" version="1.0.0.1" publicKeyToken="2c2b93a435327fb7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MustafaAgam" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MustafaAgam.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MustafaAgam.exe" size="9152">
+      <assemblyIdentity name="MustafaAgam" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Yxd8WVrypfB1ApGVN7KYhqLAHe/jUfDkDRRadN70AkQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MustafaAgam.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZAFERAVCI\ZAFER" issuerKeyHash="ac72fe387d8e64de5e92efa886c5eecbd224a2af" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sn2jUPfIk8/AgondkHX3pxXfBCZ2C6Pb0ZUm0C4Xm5U=</DigestValue></Reference></SignedInfo><SignatureValue>DaNI28eERRdR/7FcEzyXr9Qo/CJpROMsfEKCaBpDSXrB9LbUAXhW20PUH+wR342lGpU4ldMOnCrcB3X2TUBgS6XfSZ+8xCLo7w3cPNh6jJVYpoWNqg8l8mwEaMBbeWN4Lq3FcsHVW1ycnPNGFz8biMtYvBrLqZJNcFfvxJiEN+8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uP1szOyu/dr29yvbHLoIOv/1Og8FlUILFo8Z6au60BD6MWv5nh2cqXylTvK02s0XAXW+L+psLImmVHbl18mQRC/IJK4JvJu5+rB+udj3IEe4C2KX6szcHt3wHZ8qRvdD5rl5YWDQqfAHnsJiDxyIt9fH3SF8cbPEdOY6WtqLJwU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="959b172ed02695d1dba30b762604df15a7f77590dd8982c0cf93c8f750a37db2" Description="" Url=""><as:assemblyIdentity name="MustafaAgam.exe" version="1.0.0.1" publicKeyToken="2c2b93a435327fb7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZAFERAVCI\ZAFER</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WlQzuFCFru/+GKfH5bPvPv87zO2a1T0Bq/wsm4YPe3I=</DigestValue></Reference></SignedInfo><SignatureValue>fcPZZKjt/UJhZgWkFCDPe07+WC85LsuewsnyKTZPB22qHxr+q7HhG2WGe9ULgIm/ehv82rfVtfrdtORWIFrDfFBnp4haLQ7Gh/Ug01awJciV9tvhehK404Tqw5fuiWJ38coLwi3d/JqypxtRIURdzoevXuVQMmZmNnQrZxh6Z4w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uP1szOyu/dr29yvbHLoIOv/1Og8FlUILFo8Z6au60BD6MWv5nh2cqXylTvK02s0XAXW+L+psLImmVHbl18mQRC/IJK4JvJu5+rB+udj3IEe4C2KX6szcHt3wHZ8qRvdD5rl5YWDQqfAHnsJiDxyIt9fH3SF8cbPEdOY6WtqLJwU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQQRem6gej4qRDyyS0KQugCjANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AWgBBAEYARQBSAEEAVgBDAEkAXABaAEEARgBFAFIwHhcNMjIxMjI2MTgzNzQzWhcNMjMxMjI3MDAzNzQzWjApMScwJQYDVQQDHh4AWgBBAEYARQBSAEEAVgBDAEkAXABaAEEARgBFAFIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALj9bMzsrv3a9vcr2xy6CDr/9ToPBZVCCxaPGemrutAQ+jFr+Z4dnKl8pU7ytNrNFwF1vi/qbCyJplR25dfJkEQvyCSuCbybufqwfrnY9yBHuAtil+rM3B7d8B2fKkb3Q+a5eWFg0KnwB57CYg8ciLfXx90hfHGzxHTmOlraiycFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAPU4dFY9zmKEQQExvtmIJ6mu4airzCtgKJsMZUoBRPs1z2/zjzxK4c+pN/hwYS4ViupK/LAiwQ5oWfjnazh011ZsZREKfDw5ueD65wPdnsbNR5UDRWwJ1Vdu+li03ZRfBDdR8V8260+QpR9ShV8C8N3ApucSqj/zZuG14fIeYXnU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
